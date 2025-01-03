@@ -1,11 +1,11 @@
 import axios from "axios";
 
 /* Your WordPress site URL, do not add http:// */
-export let WPBlogSiteUrl = "wordpress.crlang.com";
+export let WPBlogSiteUrl = "localhost/rh/";
 /* default chinese, options: chinese english */
 export let siteLanguage = 'chinese';
 /* if true, the site mush be HTTPS protocol*/
-const siteIsSafe = true;
+const siteIsSafe = false;
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!! danger !!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*!!!!!!!!!!!!!!!!!!!!! ojbk , do not modify !!!!!!!!!!!!!!!!!!!!!*/
